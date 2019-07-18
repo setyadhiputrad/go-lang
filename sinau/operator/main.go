@@ -29,5 +29,12 @@ func main() {
 	//relational operator
 	a := 8
 	b := 6
+	//print relational
+	fmt.Println(a == b)
+	fmt.Println(a != b)
+	fmt.Println(a > b)
+	fmt.Println(a < b)
+	fmt.Println(a >= b)
+	fmt.Println(a <= b)
 
 }
