@@ -26,6 +26,8 @@ func main() {
 	opMod := opKali % 3
 	fmt.Printf("%v mod 3 adalah %v\n", opKali, opMod)
 
+	fmt.Println("____________________________________________________")
+
 	//relational operator
 	a := 8
 	b := 6
@@ -37,4 +39,25 @@ func main() {
 	fmt.Println(a >= b)
 	fmt.Println(a <= b)
 
+	fmt.Println("____________________________________________________")
+
+	//logical operator
+	adhi := true
+	budhi := false
+	cindiy := true
+	dadanga := false
+	//print
+	//AND (&&)
+	fmt.Println(adhi && budhi)
+	fmt.Println(adhi && cindiy)
+	fmt.Println(budhi && dadanga)
+	//OR (||)
+	fmt.Println(adhi || budhi)
+	fmt.Println(adhi || cindiy)
+	fmt.Println(budhi || dadanga)
+	//NOT (!)
+	fmt.Println(!adhi)
+	fmt.Println(!budhi)
+	fmt.Println(!cindiy)
+	fmt.Println(!dadanga)
 }
