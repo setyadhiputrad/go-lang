@@ -4,11 +4,10 @@ import (
 	"fmt"
 )
 
-func ifBolean(state string) string{
-	if state {
+func ifBolean() {
+	if true {
 		fmt.Println("testing decision making")
 	}
-	return state
 }
 
 func perbandingan() {
