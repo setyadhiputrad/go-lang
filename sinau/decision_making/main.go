@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
-func ifBolean() {
-	if true {
-		fmt.Println("testing decision making")
+func ifBolean(hasil bool) string {
+	if (hasil == true) {
 	}
+	return fmt.Sprintln("testing decision making")
 }
 
 func perbandingan() {
@@ -86,5 +86,8 @@ func typeSwitch() {
 }
 
 func main() {
-
+	var hasil bool
+	hasil = true
+	result := ifBolean(hasil)
+	fmt.Println(result)
 }
